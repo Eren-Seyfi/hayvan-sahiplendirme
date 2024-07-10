@@ -1,0 +1,21 @@
+.nav_btn_hover:hover {
+    color: green;
+}
+
+.card-custom {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.card-custom .card-img-top {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover; /* Resimleri kartın boyutlarına sığacak şekilde kırpar ve yerleştirir */
+}
+
+.card-custom .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
